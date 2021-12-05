@@ -1,0 +1,29 @@
+
+body{
+  display: block;
+  margin: 0;
+}
+.App h1{
+  text-align: center;
+}
+.listWrapper{
+  background-color: aqua;
+  padding: 100px;
+}
+.listWrapper ul{
+  list-style: none;
+}
+
+.listWrapper div.list{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+.listWrapper div.list li{
+  width: 400px;
+  display: inline-block;
+}
